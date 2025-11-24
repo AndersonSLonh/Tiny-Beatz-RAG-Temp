@@ -80,6 +80,8 @@ def predict_genre(user_text, k):
 
     return top_genres, scores[0]
 
+# THIS RUNS ON STREAMLIT!!!
+
 # userInput = input("Welcome! Tell me how you're vibing/feeling and I'll recommend music! ")
 # numGenres = 3
 # while(userInput):
